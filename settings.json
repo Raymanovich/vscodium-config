@@ -1,0 +1,69 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "window.titleBarStyle": "custom",
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#2020204d",
+        "titleBar.activeForeground": "#98b432"
+    },
+    "editor.fontSize": 19,
+    "terminal.integrated.fontSize": 17,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 120,
+    "window.menuBarVisibility": "compact",
+    "window.titleSeparator": "  -  ",
+    "telemetry.telemetryLevel": "off",
+    "update.mode": "none",
+    "workbench.enableExperiments": false,
+    "editor.quickSuggestions": true,
+    "editor.minimap.enabled": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "workbench.tips.enabled": false,
+    "workbench.view.alwaysShowHeaderActions": true,
+    "editor.lineNumbers": "relative",
+    "terminal.integrated.localEchoExcludePrograms": ["vim", "vi", "nano", "tmux", "nvim"],
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "editor.formatOnSave": true,
+    "emmet.includeLanguages": {
+        "html": "include"
+    },
+
+    "intelephense.diagnostics.typeErrors": false,
+    "intelephense.telemetry.enabled": false,
+
+    "phpSniffer.autoDetect": true,
+    "phpSniffer.executablesFolder": "/home/ray/.xdg/config/composer/vendor/squizlabs/php_codesniffer/bin/",
+    "phpSniffer.run": "onType",
+    "[php]": {
+        "editor.defaultFormatter": "wongjn.php-sniffer"
+    },
+
+    "prettier.arrowParens": "avoid",
+    "prettier.tabWidth": 4,
+    "prettier.withNodeModules": true,
+    "prettier.printWidth": 120,
+    "prettier.endOfLine": "auto",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.enableAppInsights": false,
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.showRunCommandInEditorContextMenu": false,
+    "code-runner.showRunCommandInExplorerContextMenu": false,
+    "code-runner.preserveFocus": true,
+    "window.zoomLevel": -1
+}
